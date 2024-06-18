@@ -1,0 +1,87 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #858ef389;
+}
+header {
+    background-color: #81a6ef;
+    color: #6a33d686;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #a0d7fac7;
+    color: #937bf5;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #98b2ec;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #558ae586;  
+}
+nav a:hover {
+    background-color: #4e149f84;  
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #5992e87c;
+    border-radius: 5px;
+    position: relative;  
+}
+footer {
+    background-color: #959dfa;
+    color: #ad8aff73;
+    padding: 20px;
+    text-align: center;
+}
+
+ 
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.animated-image {
+    width: 30px;
+    position: relative;
+    animation: slide 2s ease-out;  
+}
+
+
+.text-next-to-image {
+    position: absolute;
+    top: 50%;
+    right: -150px;  
+    transform: translateY(-50%);
+    width: 30px;
+    background-color: rgba(147, 74, 231, 0.8);  
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+ 
+.image-container {
+    /* background-color: rgb(251, 251, 251);   */
+    padding: 20px;  
+    border-radius: 5px;  
+    margin-top: 20px;  
+    max-width: 30px;
+    width: 30px;
+}
+
+ 
+h2 {
+    border: 2px solid #5081a9ed;  
+    padding: 10px;  
+    border-radius: 5px;
+}  

@@ -1,0 +1,19 @@
+body{
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+    background-image: 
+    linear-gradient(to right, rgba(96, 72, 36, 0.644), rgba(239, 210, 143, 0.744));
+}
+
+h2{
+    text-align: center;
+    background-image: 
+    linear-gradient(to right, rgba(96, 72, 36, 0.644), rgba(239, 210, 143, 0.744));  
+}
+.container {
+    display: flex;
+    align-items: center;
+}

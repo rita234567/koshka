@@ -1,0 +1,85 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #85f3c289;
+}
+header {
+    background-color: #fad7ba;
+    color: #633adf86;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #faa0b5c7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #02574286; /* Цвет фона кнопки */
+}
+nav a:hover {
+    background-color: #7647b8; /* Изменение цвета фона при наведении курсора */
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative; /* Добавляем позиционирование для текста */
+}
+footer {
+    background-color: #fa95bc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Анимация для картинки */
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.animated-image {
+    width: 200px;
+    position: relative;
+    animation: slide 2s ease-out; /* Применяем анимацию */
+}
+
+/* Стили для текста рядом с картинкой */
+.text-next-to-image {
+    position: absolute;
+    top: 50%;
+    right: -150px; /* Располагаем текст справа от картинки */
+    transform: translateY(-50%);
+    width: 130px;
+    background-color: rgba(255, 255, 255, 0.8); /* Прозрачный фон */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Стили для контейнера с картинками */
+.image-container {
+    background-color: beige; /* Цвет фона */
+    padding: 20px; /* Отступы */
+    border-radius: 5px; /* Скругленные углы */
+    margin-top: 20px; /* Отступ сверху */
+}
+
+/* Стили для рамки заголовка */
+h2 {
+    border: 2px solid #2e7d69ed; /* Цвет рамки */
+    padding: 10px; /* Отступ внутри рамки */
+    border-radius: 5px; /* Скругление углов рамки */
+}

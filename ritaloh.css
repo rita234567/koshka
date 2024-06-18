@@ -1,0 +1,19 @@
+.green{
+    background-color: rgb(223, 64, 117);
+}
+
+.purple{
+    background-color: rgb(139, 62, 101);
+}
+
+.red{
+    background-color: lightpink;
+}
+
+.main-frame{
+    border: 1px solid purple;
+}
+
+.inside-frame{
+    border: 1px solid blue;
+}

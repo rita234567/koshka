@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>courses and video tutorials </title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #85f3c289;
+        }
+        header {
+            background-color: #fad7ba;
+            color: #02574286;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #faa0b5c7;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 10px;
+            background-color: #02574286; /* Цвет фона кнопки */
+        }
+        nav a:hover {
+            background-color: #7647b8; /* Изменение цвета фона при наведении курсора */
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            position: relative; /* Добавляем позиционирование для текста */
+        }
+        footer {
+            background-color: #fa95bc;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Анимация для картинки */
+        @keyframes slide {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        .animated-image {
+            width: 200px;
+            position: relative;
+            animation: slide 2s ease-out; /* Применяем анимацию */
+        }
+
+        /* Стили для текста рядом с картинкой */
+        .text-next-to-image {
+            position: absolute;
+            top: 50%;
+            right: -150px; /* Располагаем текст справа от картинки */
+            transform: translateY(-50%);
+            width: 130px;
+            background-color: rgba(255, 255, 255, 0.8); /* Прозрачный фон */
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meditation and self-development courses and video tutorials</h1>
+    </header>
+    <nav>
+        <a href="#">● Registration</a>
+        <a href="#">● About us</a>
+        <a href="#">● Search</a>
+        <a href="#">● Contact us</a>
+    </nav>
+    <section>
+        <h2>Meditation practice </h2>
+        <p>Relieve stress, feel confident, or just stop and be alone with yourself? Our simple and effective meditations will help you achieve your desired state.</p>
+        
+        <div class="text-next-to-image">Each of us has a powerful and loving energy within us. Having great compassion for humanity, Shri Mataji developed a meditation technique to awaken it - Self-Realization. </div>
+        <img src="c:\Users\marga\Downloads\photo_5404455982937004182_y.jpg" alt="Meditation Image" class="animated-image">
+        <img src="c:\Users\marga\Downloads\photo_5404455982937004183_y.jpg" alt="Meditation Image" class="animated-image">
+        <img src="c:\Users\marga\Downloads\photo_5404455982937004184_y.jpg" alt="Meditation Image" class="animated-image">
+        <img src="c:\Users\marga\Downloads\photo_5404455982937004185_y.jpg" alt="Meditation Image" class="animated-image">
+    </section>
+    <footer>
+        <p>© 2024 My website. All rights reserved. </p>
+    </footer>
+</body>
+</html>
